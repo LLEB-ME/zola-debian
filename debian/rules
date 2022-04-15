@@ -8,7 +8,7 @@ override_dh_auto_clean:
 
 override_dh_auto_build:
 	rustup target add armv7-unknown-linux-gnueabihf
-	CC="zig cc -target armv7-linux $@" cargo build --release --target armv7-unknown-linux-gnueabihf --no-default-features --features=native-tls
+	CC="zig cc -target armv7-linux $@" cargo build --release --target armv7-unknown-linux-gnueabihf
 
 override_dh_auto_install:
 	install -Dm04755 "target/release/zola" "debian/zola/usr/bin/zola"
