@@ -8,6 +8,8 @@ Build-Depends:
  libssl-dev,
  rustc:native,
  pkg-config,
+ gcc-arm-linux-gnueabihf
+ gcc-aarch64-linux-gnu
 Standards-Version: 4.6.0
 Homepage: https://github.com/getzola/zola
 
