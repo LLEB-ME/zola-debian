@@ -5,6 +5,7 @@ This repository contains the source to build a Debian package for [zola](https:/
 ## Changes
 - Changed target for ARM devices, namely `armv7`
 - Added caching to GitHub action to speed up builds drastically (hopefully)
+- Add missing build dependencies (`pkg-config`)
 
 ## Usage
 0. [Download the latest .deb from the releases page](https://github.com/LLEB-ME/zola-debian/releases/latest)
