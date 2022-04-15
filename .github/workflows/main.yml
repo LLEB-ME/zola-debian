@@ -18,6 +18,9 @@ jobs:
         
       - name: Cargo package caching
         uses: BitskiCo/cargo-cache-action@v1
+        
+      - name: Install Zig (used for cross-compile)
+        uses: goto-bus-stop/setup-zig@v1
 
       - name: Build packages
         run: |
