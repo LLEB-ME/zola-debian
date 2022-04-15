@@ -1,9 +1,8 @@
-# zola-debian
-
-This repository contains the source to build a Debian package for [zola](https://github.com/getzola/zola).
+# zola-debian-armv7
+This repository generates a Debian package for [Zola](https://github.com/getzola/zola) made for ARMv7 devices.
 
 ## Changes [from original](https://github.com/barnumbirr/zola-debian)
-- Changed target for ARM devices, namely `armv7`
+- Changed target to support ARMv7
 - Added caching to GitHub action to speed up builds drastically (hopefully)
 - Add missing build dependencies (`pkg-config`)
 
